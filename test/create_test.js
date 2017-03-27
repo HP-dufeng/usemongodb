@@ -1,5 +1,5 @@
-const assert = require('assert');
-const User = require('../src/user');
+import assert from 'assert';
+import User from '../src/user';
 
 describe('Save a user', () => {
 
