@@ -1,5 +1,5 @@
 import assert from 'assert';
-import User from '../src/user';
+import User from '../../src/models/user';
 
 describe('Save a user', () => {
 

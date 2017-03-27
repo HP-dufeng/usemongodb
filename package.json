@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-polyfill --compilers js:babel-register"
+    "test": "mocha --recursive --require babel-polyfill --compilers js:babel-register"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +15,6 @@
   "devDependencies": {
     "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.2.2",
-    "babel-preset-latest": "^6.24.0",
     "babel-register": "^6.24.0"
   }
 }
